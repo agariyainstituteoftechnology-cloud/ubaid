@@ -351,6 +351,7 @@ span {
 .layout {
     display: flex;
     margin: 40px;
+    
 }
 
 .t-card {
@@ -379,7 +380,7 @@ span {
 }
 
 .new-arrivals {
-    margin: 25px 25px 25px 0px;
+    margin: 15px;
     width: 414px;
     height: 414px;
     background-image: url(./images/third-layout/new-arrivals.png);
@@ -387,7 +388,7 @@ span {
 }
 
 .street-style {
-    margin: 25px;
+    margin: 15px;
     width: 414px;
     height: 414px;
     background-image: url(./images/third-layout/street-style.png);
@@ -395,7 +396,7 @@ span {
 }
 
 .get-upto {
-    margin: 25px;
+    margin: 15px;
     width: 414px;
     height: 414px;
     background-image: url(./images/third-layout/get-upto.png);
