@@ -77,7 +77,7 @@ body {
 .nav :nth-last-child(1n + 1) {
     margin-left: 9px;
     list-style: none;
-    color: black;
+    color: #2C3D5F;
     text-decoration: none;
     font-size: 16px;
     font-weight: 600;
@@ -135,6 +135,7 @@ span {
     line-height: 100%;
     size: 16px;
     margin-bottom: 25px;
+    color: #2C3D5F;
 
 }
 
@@ -207,11 +208,12 @@ span {
 /* tag*/
 .tag {
     background: #ffffff;
-    color: #111827;
+    color: #2C3D5F;
     font-weight: 600;
     padding: 12px 28px;
     border-radius: 999px;
     box-shadow: 0 6px 16px rgba(15, 23, 42, 0.12);
+    opacity: 90%;
 }
 
 .sale {
@@ -335,6 +337,10 @@ span {
 
 }
 
+.product-title {
+    color: #2C3D5F;
+}
+
 .product-info {
     text-align: center;
 }
@@ -351,7 +357,6 @@ span {
 .layout {
     display: flex;
     margin: 40px;
-    
 }
 
 .t-card {
@@ -372,11 +377,12 @@ span {
 
 .t-tag {
     background: #ffffff;
-    color: #111827;
-    font-weight: 600;
+    color: #2C3D5F;
+    font-weight: 500;
     padding: 12px 28px;
     border-radius: 999px;
     box-shadow: 0 6px 16px rgba(15, 23, 42, 0.12);
+    opacity: 90%;
 }
 
 .new-arrivals {
@@ -420,6 +426,7 @@ span {
     justify-content: space-between;
     overflow: hidden;
     margin: 25px 25px 25px 25px;
+    color: ;
 }
 
 .blog-content {
@@ -429,15 +436,19 @@ span {
 .blog-excerpt {
 
     line-height: 1.5;
-    color: #333;
+    color: #2C3D5F;
+    opacity: 70%;
 
 
 }
 
 .blog-head {
 
-
-    color: #333;
+    line-height: 100%;
+    color: #2C3D5F;
+    font-weight: 500;
+    font-size: 18px;
+    margin-bottom: 5px;
 
 }
 
@@ -463,7 +474,7 @@ span {
 }
 
 .icon1 {
-    margin: 0px 5px 0px 8px;
+    margin: 0px 7px -5px 8px;
 }
 
 .read-more {
@@ -501,12 +512,6 @@ span {
 
 /* Footer Section */
 
-.text h3 {
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 100%;
-    color: #2C3D5F;
-}
 
 .foot-sec {
     border: 1px solid #4581FB;
@@ -518,19 +523,36 @@ span {
     margin-bottom: 10px;
 }
 
-.text p {
-    font-weight: 400px;
+.side-1 p {
+    font-weight: 400;
     font-size: 16px;
     color: #2C3D5F;
     letter-spacing: 0.34px;
-    line-height: 25px;
+
     width: 380px;
 }
 
-.text .info {
-    font-weight: 450;
+.side-2 ul {
+    font-weight: 400;
     font-size: 16px;
+    color: #2C3D5F;
+    letter-spacing: 0.34px;
+
+
 }
+
+.foot h2 {
+    color: #2C3D5F;
+}
+
+.side-3 {
+    font-weight: 400;
+    font-size: 16px;
+    color: #2C3D5F;
+    letter-spacing: 0.34px;
+
+}
+
 
 div .radius-1 {
     border-radius: 10px;
@@ -617,6 +639,7 @@ div .radius-1 {
 .e-come {
     margin-top: 10px;
     margin-left: 10px;
+    color: #2C3D5F;
 }
 
 .logo-e {
@@ -705,10 +728,12 @@ hr {
     margin-left: 50px;
 
 }
-.main-img{
+
+.main-img {
     position: relative;
 }
-.zoom3{
+
+.zoom3 {
     width: 40px;
     height: 40px;
     border-radius: 50%;
@@ -723,8 +748,9 @@ hr {
     right: 0;
     bottom: 0;
 }
-.left-arrow{
-     width: 40px;
+
+.left-arrow {
+    width: 40px;
     height: 40px;
     border-radius: 50%;
     border: none;
@@ -735,12 +761,13 @@ hr {
     position: absolute;
     top: 305px;
     left: 60px;
-    
+
     color: #2C3D5F;
 
 }
-.right-arrow{
-     width: 40px;
+
+.right-arrow {
+    width: 40px;
     height: 40px;
     border-radius: 50%;
     border: none;
@@ -751,7 +778,7 @@ hr {
     position: absolute;
     top: 305px;
     left: 485px;
-    
+
 }
 
 /* FOAM AREA */
@@ -787,7 +814,7 @@ hr {
     color: #2C3D5F;
     font-size: 30px;
     font-weight: 500;
-    
+
 }
 
 .price {
@@ -821,7 +848,7 @@ hr {
     line-height: 40px;
     font-size: 16px;
     color: #2C3D5F;
-    
+
 }
 
 .color-point .navy-blue {
@@ -862,9 +889,10 @@ hr {
 }
 
 .red {
-    background: linear-gradient(180deg ,#F64C4B , #D42C2B);
+    background: linear-gradient(180deg, #F64C4B, #D42C2B);
 }
-.foam-title{
+
+.foam-title {
     margin-top: 10px;
 }
 
@@ -883,7 +911,7 @@ hr {
     position: relative;
     overflow: hidden;
     color: #2C3D5F;
-    
+
 }
 
 .less {
@@ -996,7 +1024,7 @@ hr {
     padding: 0px 7px 6px 6px;
     font-style: normal;
     overflow: hidden;
-    
+
 }
 
 
