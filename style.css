@@ -73,6 +73,10 @@ body {
 .main-header>.wrapper {
     padding: 20px;
 }
+.logo-header{
+    padding-left: 25px;
+
+}
 
 .nav :nth-last-child(1n + 1) {
     margin-left: 9px;
