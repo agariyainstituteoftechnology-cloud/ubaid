@@ -1097,4 +1097,35 @@ hr {
 
 /* responsive css */
 
-     
+/* max-width = 1024px
+     @media (max-width: 1024px) {
+        .container{
+            max-width: 770px;
+            margin: auto;
+            margin-top: 5px;
+            margin-bottom:5px;
+            overflow: hidden;
+        }
+        p{
+            font-size: 14px;
+            line-height: 24px;
+            
+
+        }
+        .w-50{
+            width: 70%;
+        }
+
+        .w-60{
+            width: 100%;
+        }
+        .w-70{
+            width: 100%;
+        }
+        .w-80{
+            width: 100%;
+        }
+        .w-90{
+            width: 100%;
+        }
+     } */
