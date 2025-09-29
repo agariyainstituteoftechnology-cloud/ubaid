@@ -430,7 +430,7 @@ span {
     justify-content: space-between;
     overflow: hidden;
     margin: 25px 25px 25px 25px;
-    color: ;
+   
 }
 
 .blog-content {
@@ -1096,6 +1096,50 @@ hr {
 }
   
       /* ================= RESPONSIVE CSS ================= */
+/* ----------- 1260px ----------- */
+@media (max-width:1300px) {
+
+     .hero {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .img {
+        width: 100vh;
+        justify-content: center;
+    }
+    .store-details{
+        display: flex;
+        flex-direction: column;
+        align-items:center ;
+    }
+     .layout {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .blog-container {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .first-layout {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: center;
+    }
+    .products-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        
+    }
+
+       
+
+}
 
 /* ----------- 1024px ----------- */
 @media (max-width:1024px) {
@@ -1123,7 +1167,7 @@ hr {
         gap: 10px;
         flex-direction: row;
         align-items: flex-start;
-        justify-content: flex-start;
+        justify-content: center;
     }
 
 
@@ -1244,8 +1288,16 @@ hr {
         width: 100%;
         padding: 10px;
         flex-wrap: wrap;
+        justify-content: center;
     }
-
+.foot{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    padding-top:15px ;
+    padding-bottom: 20px;
+}
 }
 /* ============================620px======================= */
 @media (max-width:620px) {}
