@@ -323,6 +323,7 @@ span {
     margin-right: 5px;
 
 }
+
 .img-logo .zoom12 {
     height: 30px;
     width: 30px;
@@ -397,6 +398,7 @@ span {
 
 
 }
+
 .latest {
     font-weight: 600;
     font-size: 50px;
@@ -559,8 +561,8 @@ span {
     font-size: 16px;
     color: #2C3D5F;
     letter-spacing: 0.34px;
-
-    width: 380px;
+    opacity: 70%;
+    width: 359px;
 }
 
 .side-2 ul {
@@ -568,7 +570,7 @@ span {
     font-size: 16px;
     color: #2C3D5F;
     letter-spacing: 0.34px;
-
+    opacity: 70%;
 
 }
 
@@ -584,6 +586,14 @@ span {
 
 }
 
+.side-3 ul {
+    opacity: 70%;
+}
+
+.side-4 p {
+    opacity: 70%;
+}
+
 
 div .radius-1 {
     border-radius: 10px;
@@ -596,13 +606,11 @@ div .radius-1 {
 }
 
 /*FOOTER*/
-.footer-sec {
-    height: 602px;
-}
+
 
 .foot {
     background-color: #FAFCFE;
-    padding: 50px 80px;
+    padding: 50px 30px;
     font-size: 16px;
     font-weight: 400px;
 }
@@ -671,6 +679,7 @@ div .radius-1 {
     margin-top: 10px;
     margin-left: 10px;
     color: #2C3D5F;
+    opacity: 70%;
 }
 
 .logo-e {
@@ -1695,6 +1704,7 @@ hr {
 
     .foot {
         margin-top: 25px;
+        margin-left: 50px;
     }
 
     .foot h2 {
@@ -1839,26 +1849,34 @@ hr {
         height: 390px;
         padding: 10px;
     }
-    .blog-img{
-        width:220px ;
+
+    .blog-img {
+        width: 220px;
         height: 150px;
     }
-    .blog-head{
+
+    .blog-head {
         font-size: 16px;
         margin-top: 5px;
     }
-    .blog-excerpt{
+
+    .blog-excerpt {
         line-height: 1.4;
     }
-    .blog-date, .blog-author {
-    font-size: 13px;
-    
-    margin-left: -4px;
-    margin-right: 3px;
+
+    .blog-date,
+    .blog-author {
+        font-size: 13px;
+
+        margin-left: -4px;
+        margin-right: 3px;
+    }
+
+    .read-more {
+        font-size: 13px;
+        width: 232px;
+    }
+
 }
-.read-more{
-    font-size: 13px;
-    width: 232px;
-}
-}
+
 /* ==================end==================== */
