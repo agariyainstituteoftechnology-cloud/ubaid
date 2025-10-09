@@ -1704,7 +1704,9 @@ hr {
 
     .foot {
         margin-top: 25px;
-        margin-left: 50px;
+        padding-left: 1px;
+        gap: 10px;
+        
     }
 
     .foot h2 {
@@ -1718,25 +1720,25 @@ hr {
 
     .side-1 {
 
-        margin-left: -77px;
+       
         margin-right: 55px;
     }
 
     .side-2 {
         padding: 2px;
         margin-right: 20px;
-        margin-left: -74px;
+        
     }
 
     .side-3 {
-        margin-left: -74px;
+        
         margin-right: 40px;
         padding: 8px;
     }
 
     .side-4 {
         padding: 5px;
-        margin-left: -74px;
+        
         margin-right: 40px;
         padding-right: 1px;
     }
