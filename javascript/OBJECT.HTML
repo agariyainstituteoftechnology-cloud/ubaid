@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>document</title>
+  </head>
+  <body>
+    <h1 id="heading">Registration Foam:</h1>
+
+    <form id="register-form" method="post">
+      <div>
+        <label>Firstname</label>
+        <input type="text" id="firstname" />
+      </div>
+      <div>
+        <label>Lastname</label>
+        <input type="text" id="lastname" />
+      </div>
+      <div>
+        <label>Email</label>
+        <input type="email" id="email" />
+      </div>
+      <div>
+        <label>Password</label>
+        <input type="password" id="password" />
+      </div>
+      <input type="submit" value="Submit" />
+    </form>
+
+    <script>
+      //  Empty object declared outside
+      const user = {};
+
+      //  Form submission event
+      addEventListener("submit", function (e) {
+        e.preventDefault();
+
+        //  Get input values
+        let firstname = document.getElementById("firstname").value;
+        let lastname = document.getElementById("lastname").value;
+        let email = document.getElementById("email").value;
+        let password = document.getElementById("password").value;
+
+        //  Assign values to object properties
+        user.fname = firstname;
+        user.lname = lastname;
+        user.email = email;
+        user.password = password;
+
+        //  Show object in console
+        console.log(user);
+       
+       
+      });
+    </script>
+  </body>
+</html>
