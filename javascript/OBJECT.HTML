@@ -29,26 +29,26 @@
     </form>
 
     <script>
-      //  Empty object declared outside
+    
       const user = {};
 
-      //  Form submission event
+     
       addEventListener("submit", function (e) {
         e.preventDefault();
 
-        //  Get input values
+       
         let firstname = document.getElementById("firstname").value;
         let lastname = document.getElementById("lastname").value;
         let email = document.getElementById("email").value;
         let password = document.getElementById("password").value;
 
-        //  Assign values to object properties
+        
         user.fname = firstname;
         user.lname = lastname;
         user.email = email;
         user.password = password;
 
-        //  Show object in console
+       
         console.log(user);
        
        
