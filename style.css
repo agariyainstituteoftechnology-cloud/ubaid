@@ -456,7 +456,7 @@ span {
     flex-direction: column;
     justify-content: space-between;
     overflow: hidden;
-    margin: 25px 25px 25px 25px;
+    margin: 25px 0px 8px 25px;
     align-items: center;
 
 }
@@ -1706,7 +1706,7 @@ hr {
         margin-top: 25px;
         padding-left: 1px;
         gap: 10px;
-        
+
     }
 
     .foot h2 {
@@ -1720,25 +1720,25 @@ hr {
 
     .side-1 {
 
-       
+
         margin-right: 55px;
     }
 
     .side-2 {
         padding: 2px;
         margin-right: 20px;
-        
+
     }
 
     .side-3 {
-        
+
         margin-right: 40px;
         padding: 8px;
     }
 
     .side-4 {
         padding: 5px;
-        
+
         margin-right: 40px;
         padding-right: 1px;
     }
@@ -1771,6 +1771,11 @@ hr {
 
     .count {
         margin-right: 17px;
+    }
+
+    .select {
+        align-items: center;
+        justify-content: center;
     }
 
     .detail-foam {
