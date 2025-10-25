@@ -173,7 +173,7 @@ voiceBtn.addEventListener("click", () => {
 function speakMessage(message) {
   if ("speechSynthesis" in window) {
     const utterance = new SpeechSynthesisUtterance(message); // yaha hum jo bi reply aaha ga wo ya javascript ke object ki help se voice ma bi bole ga
-    utterance.lang = "ur-pk"; // ✅ Aap chahein to "ur-PK" ya en-US bhi kar sakte hain
+    utterance.lang = "en-US"; // ✅ Aap chahein to "ur-PK" ya en-US bhi kar sakte hain
     //Ye ek JavaScript object hai jo ek "speech request" ko represent karta hai...
     speechSynthesis.speak(utterance); // jo bi is variable ma hai voice ma batao
   }
