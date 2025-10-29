@@ -326,17 +326,6 @@ body {
   border: 1px solid #e2e8f0;
 }
 
-/* Professional blue color scheme */
-:root {
-  --primary-blue: #3b82f6;
-  --primary-dark-blue: #1d4ed8;
-  --background-light: #f8fafc;
-  --surface-white: #ffffff;
-  --text-primary: #334155;
-  --text-secondary: #64748b;
-  --border-light: #e2e8f0;
-}
-
 @media (max-width: 480px) {
   .chatbot-container {
     height: 100vh;
